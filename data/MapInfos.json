@@ -1,0 +1,10 @@
+[
+null,
+{"id":1,"expanded":true,"name":"MAP001","order":1,"parentId":0,"scrollX":763.3333333333334,"scrollY":593.3333333333334},
+{"id":2,"expanded":true,"name":"MAP002","order":2,"parentId":1,"scrollX":676.6666666666666,"scrollY":604},
+{"id":3,"expanded":true,"name":"彼岸花","order":3,"parentId":2,"scrollX":541.7777777777778,"scrollY":402.6666666666667},
+{"id":4,"expanded":true,"name":"HEYHEY","order":4,"parentId":2,"scrollX":832,"scrollY":640},
+{"id":5,"expanded":true,"name":"Death","order":5,"parentId":2,"scrollX":541.7777777777778,"scrollY":402.6666666666667},
+{"id":6,"expanded":true,"name":"2F","order":7,"parentId":1,"scrollX":763.3333333333334,"scrollY":593.3333333333334},
+{"id":7,"expanded":true,"name":"★","order":6,"parentId":2,"scrollX":676.6666666666666,"scrollY":604}
+]
