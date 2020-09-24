@@ -6,7 +6,7 @@ var $plugins =
 {"name":"111_InputForm","status":true,"description":"フォーム作って文字入力（修正版）","parameters":{}},
 {"name":"DTextPicture","status":true,"description":"動的文字列ピクチャ生成プラグイン","parameters":{}},
 {"name":"PictureCallCommon","status":true,"description":"ピクチャのボタン化プラグイン","parameters":{"透明色を考慮":"true","ピクチャ番号の変数番号":"0","ポインタX座標の変数番号":"0","ポインタY座標の変数番号":"0","タッチ操作抑制":"false","戦闘中常にコモン実行":"false","無効スイッチ":"0"}},
-{"name":"OnlineAvatar","status":true,"description":"Firebaseを使ってプレイヤーをオンライン同期します。","parameters":{"apiKey":"AIzaSyBC-eezil4uEw3PKO5ERlQvFUxI3TDBlEA","authDomain":"jsurotto3.firebaseapp.com","databaseURL":"https://jsurotto3.firebaseio.com","avatarEvent":"64","syncSwitchStart":"101","syncSwitchEnd":"180","syncVariableStart":"500","syncVariableEnd":"3000"}},
+{"name":"OnlineAvatar","status":true,"description":"Firebaseを使ってプレイヤーをオンライン同期します。","parameters":{"apiKey":"AIzaSyBo3wTtDdB94qflFjonY6vJYa-scgMbXqg","authDomain":"freesuro3.firebaseapp.com","databaseURL":"https://freesuro3.firebaseio.com","avatarEvent":"64","syncSwitchStart":"101","syncSwitchEnd":"180","syncVariableStart":"500","syncVariableEnd":"3002"}},
 {"name":"Torigoya_SaveCommand","status":true,"description":"プラグインコマンドからセーブを実行できるようにします。","parameters":{}},
 {"name":"HyperLink","status":true,"description":"ゲーム中に外部ページへのリンクを貼ります。","parameters":{"description":"画面外タッチで閉じる"}},
 {"name":"TitleNewGameOnly","status":true,"description":"ニューゲームオンリープラグイン","parameters":{"startString":"タッチでスタート","font":"","fileExistAction":"0","soundEffect":"","adjustY":"-450"}},
@@ -19,6 +19,6 @@ var $plugins =
 {"name":"PixiApngAndGif","status":true,"description":"","parameters":{}},
 {"name":"Trb_LoadingAnimation","status":true,"description":"ローディング画面をアニメーションさせるプラグイン","parameters":{"コマ数":"3","再生速度":"20","x":"","y":"200"}},
 {"name":"TMBitmapEx","status":true,"description":"角丸の矩形や星を描画する機能を追加します。\n各種ゲージの形状を角丸矩形に自動変更する機能もあります。","parameters":{"gaugeHeight":"18","gaugeReduction":"2","cornerRadius":"6","minGaugeRate":"1.5"}},
-{"name":"TMNamePop","status":true,"description":"イベントの頭上に文字列を表示する機能を追加します。","parameters":{"backOpacity":"250","fontSize":"22","fontOutlineWidth":"3","fontOutlineColor":"rgba(0, 0, 0, 0.5)","width":"160","useRoundRect":"1","roundRectRadius":"6"}},
+{"name":"TMNamePop","status":true,"description":"イベントの頭上に文字列を表示する機能を追加します。","parameters":{"backOpacity":"250","fontSize":"22","fontOutlineWidth":"3","fontOutlineColor":"rgba(240, 240, 240, 0.5)","width":"160","useRoundRect":"1","roundRectRadius":"6"}},
 {"name":"MKR_PlayerMoveForbid","status":true,"description":"(v1.0.5) プレイヤー移動禁止プラグイン","parameters":{"Default_Move_Flag":"71","Default_Menu_Flag":"false","Enter Flag":"true"}}
 ];
