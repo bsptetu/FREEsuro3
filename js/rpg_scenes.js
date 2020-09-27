@@ -617,7 +617,8 @@ Scene_Map.prototype.updateMain = function() {
 
 Scene_Map.prototype.isFastForward = function() {
     return ($gameMap.isEventRunning() && !SceneManager.isSceneChanging() &&
-            (Input.isLongPressed('ok') || TouchInput.isLongPressed()));
+　　　　　(Input.isLongPressed('ok') || TouchInput.isLongPressed())
+　　　　　&& $gameSwitches.value(72));
 };
 
 Scene_Map.prototype.stop = function() {
