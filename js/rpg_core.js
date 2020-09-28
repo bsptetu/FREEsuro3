@@ -2080,6 +2080,7 @@ Graphics._setupProgress = function(){
     this._progressElement.width = 600;
     this._progressElement.height = 110;
     this._progressElement.style.visibility = 'hidden';
+   this._progressElement.style.Top = 200;
 
     this._barElement = document.createElement('div');
     this._barElement.id = 'loading-bar';
