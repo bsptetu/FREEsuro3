@@ -2080,7 +2080,6 @@ Graphics._setupProgress = function(){
     this._progressElement.width = 600;
     this._progressElement.height = 110;
     this._progressElement.style.visibility = 'hidden';
-   this._progressElement.style.Top = 200;
 
     this._barElement = document.createElement('div');
     this._barElement.id = 'loading-bar';
@@ -2089,7 +2088,7 @@ Graphics._setupProgress = function(){
     this._barElement.style.background = 'linear-gradient(to top, gray, lightgray)';
     this._barElement.style.border = '5px solid white';
     this._barElement.style.borderRadius = '15px';
-    this._barElement.style.marginTop = '10%';
+    this._barElement.style.marginTop = '-10%';
 
     this._filledBarElement = document.createElement('div');
     this._filledBarElement.id = 'loading-filled-bar';
