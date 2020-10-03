@@ -438,7 +438,6 @@ Scene_Title.prototype.create = function() {
     this.createForeground();
     this.createWindowLayer();
     this.createCommandWindow();
-    document.getElementById("gameFrame").style.zIndex = 9998;
 };
 
 Scene_Title.prototype.start = function() {
