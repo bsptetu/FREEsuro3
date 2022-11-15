@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low Poly Zombie (Game Animation)
+* source:	https://sketchfab.com/3d-models/low-poly-zombie-game-animation-9f8f0885b2f94c6890c4debaceac9421
+* author:	Jerome Angeles (https://sketchfab.com/jeromeangeles1996)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low Poly Zombie (Game Animation)" (https://sketchfab.com/3d-models/low-poly-zombie-game-animation-9f8f0885b2f94c6890c4debaceac9421) by Jerome Angeles (https://sketchfab.com/jeromeangeles1996) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
