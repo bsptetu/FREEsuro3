@@ -4257,16 +4257,22 @@
         },
         {
             "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_unlit" : {}
+            },
             "name" : "F00_000_Hair_00_HAIR_02",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    0.800000011920929,
-                    0.800000011920929,
-                    0.800000011920929,
+                    0.17365838587284088,
+                    0.17365838587284088,
+                    0.17365838587284088,
                     1
                 ],
+                "baseColorTexture" : {
+                    "index" : 13
+                },
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0.4000000059604645
+                "roughnessFactor" : 0.9
             }
         },
         {
@@ -4282,6 +4288,9 @@
                     0.17365838587284088,
                     1
                 ],
+                "baseColorTexture" : {
+                    "index" : 14
+                },
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.9
             }
@@ -7270,6 +7279,14 @@
         {
             "sampler" : 0,
             "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 12
+        },
+        {
+            "sampler" : 0,
+            "source" : 12
         }
     ],
     "images" : [
@@ -7332,6 +7349,11 @@
             "mimeType" : "image/png",
             "name" : "F00_000_00_Face_00_SKIN",
             "uri" : "F00_000_00_Face_00_SKIN.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "megane",
+            "uri" : "megane.png"
         }
     ],
     "skins" : [
