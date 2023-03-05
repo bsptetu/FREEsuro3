@@ -1,0 +1,414 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <link type="text/css" rel="stylesheet" href="https://dbreaks.web.fc2.com/web_storage/web_storage.css" />
+    <script src='https://unpkg.com/tesseract.js@4.0.2/dist/tesseract.min.js'></script>
+  </head>
+  <body>
+    <img id="loadingbar" class ="page_off" src="https://raw.githubusercontent.com/bsptetu/FREEsuro3/gh-pages/loadingbar.svg"/>
+    <div id="inputeria_a" class ="inputeria_a">
+      <div class ="inputeria_bak"></div>
+      <div class ="close" onclick="closeA()"></div>
+      <div class ="inputeria_text">数字４桁で年号を入力</div>
+      <input type="number" id="form_4" class="input_field" value=2000 step=0 maxlength=4 />
+      <div class ="inputeria_text2" onclick="smbitA()">決定</div>
+    </div>
+    <div id="inputeria_b" class ="inputeria_a">
+      <div class ="inputerib_bak1"></div>
+      <div class ="inputerib_bak2"></div>
+      <div id="burabak2" class ="burabak2 page_off" onclick="burabak2()">キャンセル</div>
+      <div class ="close" onclick="closeB()"></div>
+      <div id="inputerib_text1_5" class ="inputerib_text1">月を選択</div>
+      <select name="example" size="1"  id="form_in_5">
+        <option value="1">１</option>
+        <option value="2">２</option>
+        <option value="3">３</option>
+        <option value="4">４</option>
+        <option value="5">５</option>
+        <option value="6">６</option>
+        <option value="7">７</option>
+        <option value="8">８</option>
+        <option value="9">９</option>
+        <option value="10">１０</option>
+        <option value="11">１１</option>
+        <option value="12">１２</option>
+      </select>
+      <div id="inputerib_text1_1" class ="inputerib_text1">日にちを、2桁の数字で入力</div>
+      <div id="select31">
+        <select name="example" size="5"  id="form_in_1" class="input_field">
+          <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option>
+          <option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option>
+          <option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option>
+          <option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option>
+          <option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option>
+          <option value="26">26</option><option value="27">27</option><option value="28">28</option>
+          <option value="29">29</option><option value="30">30</option><option value="31">31</option>
+        </select>
+      </div>
+      <div id="select30" class ="page_off">
+        <select name="example" size="5"  id="form_in_1" class="input_field">
+          <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option>
+          <option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option>
+          <option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option>
+          <option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option>
+          <option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option>
+          <option value="26">26</option><option value="27">27</option><option value="28">28</option>
+          <option value="29">29</option><option value="30">30</option>
+        </select>
+      </div>
+      <div id="select29" class ="page_off">
+        <select name="example" size="5"  id="form_in_1" class="input_field">
+          <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option>
+          <option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option>
+          <option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option>
+          <option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option>
+          <option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option>
+          <option value="26">26</option><option value="27">27</option><option value="28">28</option>
+          <option value="29">29</option>
+        </select>
+      </div>
+      <div id="select28" class ="page_off">
+        <select name="example" size="5"  id="form_in_1" class="input_field">
+          <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option>
+          <option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option>
+          <option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option>
+          <option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option>
+          <option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option>
+          <option value="26">26</option><option value="27">27</option><option value="28">28</option>
+        </select>
+      </div>
+      <div id="number" class ="inputerib_text1 input_number">金額を数字で入力</div>
+      <input type="number" id="form_in_2" class="input_field input_number" step=1 min=0 />
+      <div id="inputerib_text1_3" class ="inputerib_text1">項目を選択</div>
+      <select name="example" size="5"  id="form_in_3_a">
+        <option value="仕入れ">仕入れ</option>
+        <option value="租税公課">租税公課</option>
+        <option value="荷造運賃">荷造運賃</option>
+        <option value="水道光熱費">水道光熱費</option>
+        <option value="旅費交通費">旅費交通費</option>
+        <option value="通信費">通信費</option>
+        <option value="広告宣伝費">広告宣伝費</option>
+        <option value="接待交際費">接待交際費</option>
+        <option value="損害保険料">損害保険料</option>
+        <option value="修繕費">修繕費</option>
+        <option value="消耗品費">消耗品費</option>
+        <option value="福利厚生費">福利厚生費</option>
+        <option value="給料賃金">給料賃金</option>
+        <option value="外注工賃">外注工賃</option>
+        <option value="利子割引料">利子割引料</option>
+        <option value="地代家賃">地代家賃</option>
+        <option value="貸倒金">貸倒金</option>
+        <option value="車両費">車両費</option>
+        <option value="雑費">雑費</option>
+      </select>
+      <select name="example" size="1"  id="form_in_3_b">
+        <option value="売上">売上</option>
+        <option value="雑収入">雑収入</option>
+      </select>
+      <div id="inputerib_text1_4" class ="inputerib_text1_img">画像をアップロード</div>
+      <form name="imgs">
+        <input type="file" id="form_in_4" accept='image/*' multiple='multiple' name='imgs[]' onchange="OutputImage(this);"/>
+        <img id="form_in_img" src=""/>
+      </form>
+      <div id="inputerib_text2" class ="inputerib_text2_2" onclick="smbitB()">確認</div>
+    </div>
+    
+    <div id="day_date" class ="day_date">
+      <div class ="inputerib_bak1"></div>
+      <div class ="inputerib_bak2"></div>
+      <div class ="close" onclick="day_close()"></div>
+      <div id="day_date_text1" class ="inputerib_text1"></div>
+      <div id="day_date_text2" class ="inputerib_text1"></div>
+      <div id="day_date_text3" class ="inputerib_text1"></div>
+      <div id="day_date_text4" class ="inputerib_text1"></div>
+      <img id="day_date_img" src="https://dbreaks.web.fc2.com/web_storage/loading1.gif"/>
+      <div id="day_date_text5" class ="inputerib_text2" onclick="daydelete()">削除</div>
+      <div id="day_delete_eria" class ="opacity_off">
+        <div id="day_date_text6" class ="day_date_text6" onclick="daydeleteok()">OK</div>
+        <div id="day_date_text7" class ="day_date_text7" onclick="daydeleteno()">NO</div>
+        <div id="day_date_text8" class ="inputerib_text2">データを削除しますか？</div>
+      </div>
+    </div>
+    
+    <div id="kessan" class ="kessan">
+      <div  class ="kessan_1">
+        <div class ="kessan_text1">年 分所得税青色申告決算書(<font color="#ff4500">一般用</font>)</div>
+        <div class ="kessan_box1">
+          <div class ="kessan_box1_1">
+            <div class ="kessan_box1_5">
+              <div class ="kessan_box1_6">住所</div>
+              <div class ="kessan_box1_7"></div>
+            </div>
+            <div class ="kessan_box1_5">
+              <div class ="kessan_box1_6">事務所<br>所在地</div>
+              <div class ="kessan_box1_7"></div>
+            </div>
+            <div class ="kessan_box1_5">
+              <div class ="kessan_box1_6">業種名</div>
+              <div class ="kessan_box1_7"></div>
+            </div>
+          </div>
+          <div class ="kessan_box1_2">
+            <div class ="kessan_box1_5">
+              <div class ="kessan_box1_6">氏名</div>
+              <div class ="kessan_box1_7"></div>
+            </div>
+            <div class ="kessan_box1_5">
+              <div class ="kessan_box1_6">電話<br>番号</div>
+              <div class ="kessan_box1_8">自宅・事務所</div>
+            </div>
+            <div class ="kessan_box1_5">
+              <div class ="kessan_box1_6">加入<br>団体名</div>
+              <div class ="kessan_box1_7"></div>
+            </div>
+          </div>
+          <div class ="kessan_box1_3">依<br>頼<br>税<br>理<br>士<br>等</div>
+          <div class ="kessan_box1_4">
+            <div class ="kessan_box1_5">
+              <div class ="kessan_box1_9">事務所</div>
+              <div class ="kessan_box1_10"></div>
+            </div>
+            <div class ="kessan_box1_5">
+              <div class ="kessan_box1_9">名称</div>
+              <div class ="kessan_box1_10"></div>
+            </div>
+            <div class ="kessan_box1_5">
+              <div class ="kessan_box1_9">電話番号</div>
+              <div class ="kessan_box1_10"></div>
+            </div>
+          </div>
+        </div>
+        <div class ="kessan_text2">年　　　月　　　日</div>
+        <div class ="kessan_text3">損 益 計 算 書</div>
+        <div class ="kessan_text4">(自　　　月　　　日　至　　　月　　　日)</div>
+        <div class ="kessan_text5"></div>
+        <div class ="kessan_box2">
+          <div class ="kessan_box2_1">
+            <div class ="kessan_box2_1_1">科目</div>
+            <div class ="kessan_box2_1_1_2">売上(収入)<br>雑収入</div>
+            <div class ="kessan_box2_1_1_5">
+              <div class ="kessan_box2_1_1_5_1">売<br>上<br>原<br>価</div>
+              <div class ="kessan_box2_1_1_5_2">
+                <div class ="kessan_box2_1_1_5b">首位　棚卸高</div>
+                <div class ="kessan_box2_1_1_5b">仕入金原価</div>
+                <div class ="kessan_box2_1_1_5b">小計</div>
+                <div class ="kessan_box2_1_1_5b">期末品棚卸高</div>
+                <div class ="kessan_box2_1_1_5b">差引原価</div>
+              </div>
+            </div>
+            <div class ="kessan_box2_1_1_2">差引金額</div>
+            <div class ="kessan_box2_1_1_9">
+              <div class ="kessan_box2_1_1_9_1">経<br>費</div>
+              <div class ="kessan_box2_1_1_9_2">
+                <div class ="kessan_box2_1_1_9b">租税公課</div>
+                <div class ="kessan_box2_1_1_9b">商品運賃</div>
+                <div class ="kessan_box2_1_1_9b">水道光熱費</div>
+                <div class ="kessan_box2_1_1_9b">旅費交通費</div>
+                <div class ="kessan_box2_1_1_9b">通信費</div>
+                <div class ="kessan_box2_1_1_9b">広告宣伝費</div>
+                <div class ="kessan_box2_1_1_9b">接待交際費</div>
+                <div class ="kessan_box2_1_1_9b">損害保険料</div>
+                <div class ="kessan_box2_1_1_9b1">修繕費</div>
+              </div>
+            </div>
+          </div>
+          <div class ="kessan_box2_2">
+            <div class ="kessan_box2_1_1">金額(円)</div>
+            <div class ="kessan_box2_1_1_2" id="kessan_val1"></div>
+            <div class ="kessan_box2_1_1_5">
+              <div class ="kessan_box2_1_1_5b" id="kessan_val2"></div>
+              <div class ="kessan_box2_1_1_5b"></div>
+              <div class ="kessan_box2_1_1_5b"></div>
+              <div class ="kessan_box2_1_1_5b"></div>
+              <div class ="kessan_box2_1_1_5b1"></div>
+            </div>
+            <div class ="kessan_box2_1_1_2"></div>
+            <div class ="kessan_box2_1_1_9">
+                <div class ="kessan_box2_1_1_9b" id="kessan_val3"></div>
+                <div class ="kessan_box2_1_1_9b" id="kessan_val4"></div>
+                <div class ="kessan_box2_1_1_9b" id="kessan_val5"></div>
+                <div class ="kessan_box2_1_1_9b" id="kessan_val6"></div>
+                <div class ="kessan_box2_1_1_9b" id="kessan_val7"></div>
+                <div class ="kessan_box2_1_1_9b" id="kessan_val8"></div>
+                <div class ="kessan_box2_1_1_9b" id="kessan_val9"></div>
+                <div class ="kessan_box2_1_1_9b" id="kessan_val10"></div>
+                <div class ="kessan_box2_1_1_9b1" id="kessan_val11"></div>
+            </div>
+          </div>
+        </div>
+        <div class ="kessan_box3">
+          <div class ="kessan_box2_1">
+            <div class ="kessan_box2_1_1">科目</div>
+            <div class ="kessan_box2_1_1_16">
+              <div class ="kessan_box2_1_1_16_1">経<br>費</div>
+              <div class ="kessan_box2_1_1_16_2">
+                <div class ="kessan_box2_1_1_16b">消耗品費</div>
+                <div class ="kessan_box2_1_1_16b">減価償却費</div>
+                <div class ="kessan_box2_1_1_16b">福利厚生費</div>
+                <div class ="kessan_box2_1_1_16b">給料賃金</div>
+                <div class ="kessan_box2_1_1_16b">外注工賃</div>
+                <div class ="kessan_box2_1_1_16b">利子割引料</div>
+                <div class ="kessan_box2_1_1_16b">地代家賃</div>
+                <div class ="kessan_box2_1_1_16b">貸倒金</div>
+                <div class ="kessan_box2_1_1_16b"></div>
+                <div class ="kessan_box2_1_1_16b"></div>
+                <div class ="kessan_box2_1_1_16b"></div>
+                <div class ="kessan_box2_1_1_16b"></div>
+                <div class ="kessan_box2_1_1_16b"></div>
+                <div class ="kessan_box2_1_1_16b"></div>
+                <div class ="kessan_box2_1_1_16b">雑費</div>
+                <div class ="kessan_box2_1_1_16b1">計</div>
+              </div>
+            </div>
+            <div class ="kessan_box2_1_1_2">差引金額</div>
+          </div>
+          <div class ="kessan_box2_2">
+            <div class ="kessan_box2_1_1">金額(円)</div>
+            <div class ="kessan_box2_1_1_16">
+              <div class ="kessan_box2_1_1_16b" id="kessan_val12"></div>
+              <div class ="kessan_box2_1_1_16b" id="kessan_val13"></div>
+              <div class ="kessan_box2_1_1_16b" id="kessan_val14"></div>
+              <div class ="kessan_box2_1_1_16b" id="kessan_val15"></div>
+              <div class ="kessan_box2_1_1_16b" id="kessan_val16"></div>
+              <div class ="kessan_box2_1_1_16b" id="kessan_val17"></div>
+              <div class ="kessan_box2_1_1_16b" id="kessan_val18"></div>
+              <div class ="kessan_box2_1_1_16b" id="kessan_val19"></div>
+              <div class ="kessan_box2_1_1_16b" id="kessan_val20"></div>
+              <div class ="kessan_box2_1_1_16b"></div>
+              <div class ="kessan_box2_1_1_16b"></div>
+              <div class ="kessan_box2_1_1_16b"></div>
+              <div class ="kessan_box2_1_1_16b"></div>
+              <div class ="kessan_box2_1_1_16b"></div>
+              <div class ="kessan_box2_1_1_16b"></div>
+              <div class ="kessan_box2_1_1_16b1" id="kessan_val21"></div>
+            </div>
+            <div class ="kessan_box2_1_1_2"></div>
+          </div>
+        </div>
+        <div class ="kessan_box4">
+          <div class ="kessan_box2_1">
+            <div class ="kessan_box2_1_1">科目</div>
+            <div class ="kessan_box2_1_1_9">
+              <div class ="kessan_box2_1_1_9_1">各<br>種<br>引<br>当<br>金<br>・<br>準<br>備<br>金<br>等</div>
+              <div class ="kessan_box2_1_1_9_2">
+                <div class ="kessan_box2_1_4">
+                  <div class ="kessan_box2_1_4_1">繰<br>戻<br>額<br>等</div>
+                  <div class ="kessan_box2_1_4_2">
+                    <div class ="kessan_box2_1_4_2b">貸倒引当金</div>
+                    <div class ="kessan_box2_1_4_2b"></div>
+                    <div class ="kessan_box2_1_4_2b"></div>
+                    <div class ="kessan_box2_1_4_2b">計</div>
+                  </div>
+                </div>
+                <div class ="kessan_box2_1_5">
+                  <div class ="kessan_box2_1_5_1">繰<br>戻<br>額<br>等</div>
+                  <div class ="kessan_box2_1_5_2">
+                    <div class ="kessan_box2_1_5_2b">専従者給与</div>
+                    <div class ="kessan_box2_1_5_2b">貸倒引当金</div>
+                    <div class ="kessan_box2_1_5_2b"></div>
+                    <div class ="kessan_box2_1_5_2b"></div>
+                    <div class ="kessan_box2_1_5_2b">計</div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class ="kessan_box2_1_1_2">青色申告特別控除前所得金額</div>
+            <div class ="kessan_box2_1_1_2">青色申告特別控除額</div>
+            <div class ="kessan_box2_1_1_2">所得金額</div>
+          </div>
+          <div class ="kessan_box2_2">
+            <div class ="kessan_box2_1_1">金額(円)</div>
+            <div class ="kessan_box2_1_1_9">
+              <div class ="kessan_box2_1_1_9b"></div>
+              <div class ="kessan_box2_1_1_9b"></div>
+              <div class ="kessan_box2_1_1_9b"></div>
+              <div class ="kessan_box2_1_1_9b"></div>
+              <div class ="kessan_box2_1_1_9b"></div>
+              <div class ="kessan_box2_1_1_9b"></div>
+              <div class ="kessan_box2_1_1_9b"></div>
+              <div class ="kessan_box2_1_1_9b"></div>
+              <div class ="kessan_box2_1_1_9b"></div>
+            </div>
+            <div class ="kessan_box2_1_1_2"></div>
+            <div class ="kessan_box2_1_1_2"></div>
+            <div class ="kessan_box2_1_1_2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="top_ber" class ="top_ber"></div>
+    <div id="load" class="load_on">
+      <div id="login" class ="login" onclick="login()"><b>login</b></div>
+      <div class ="top_icon1_on"></div>
+      <div class ="top_icon2_on"></div>
+      <div class ="top_icon3_on"></div>
+      <div class ="top_icon4_on"></div>
+    </div>
+    <input type="text" id="form1" value="" max="10" />
+    <div id="top_icon1" class ="top_icon1"></div>
+    <div id="top_icon2" class ="top_icon2"></div>
+    <div id="top_icon3" class ="top_icon3"></div>
+    <div id="top_icon4" class ="top_icon4"></div>
+    <div id="top_text" class ="top_text"><b>Web_storage</b></div>
+    <div id="top_title" class ="top_title">bellino</div>
+    <div class ="top_caution">※ブラウザのバックは使用しないでください。</div>
+    <div id="top_page">
+      <div id="top" class ="top"></div>
+      <div id="data_storage" class ="data_storage">data_storage 保存する年数を作成</div>
+      <div id="data_block" class ="data_block">
+        <div id="data_box1" class ="data_box" onclick="box(1)"><div id="data_text1" class ="data_text"><p></p></div></div>
+        <div id="data_box2" class ="data_box" onclick="box(2)"><div id="data_text2" class ="data_text"><p></p></div></div>
+        <div id="data_box3" class ="data_box" onclick="box(3)"><div id="data_text3" class ="data_text"><p></p></div></div>
+        <div id="data_box4" class ="data_box" onclick="box(4)"><div id="data_text4" class ="data_text"><p></p></div></div>
+        <div id="data_box5" class ="data_box" onclick="box(5)"><div id="data_text5" class ="data_text"><p></p></div></div>
+        <div id="data_box6" class ="data_box" onclick="box(6)"><div id="data_text6" class ="data_text"><p></p></div></div>
+        <div id="data_box7" class ="data_box" onclick="box(7)"><div id="data_text7" class ="data_text"><p></p></div></div>
+        <div id="data_box8" class ="data_box" onclick="box(8)"><div id="data_text8" class ="data_text"><p></p></div></div>
+        <div id="data_box9" class ="data_box" onclick="box(9)"><div id="data_text9" class ="data_text"><p></p></div></div>
+        <div id="data_box10" class ="data_box" onclick="box(10)"><div id="data_text10" class ="data_text"><p></p></div></div>
+        <div id="data_Delete" class ="data_Delete" onclick="data_Delete()"></div>
+      </div>
+    </div>
+    <div id="in_page" class ="page_off">
+      <div id="in_page_text" class ="in_page_text"></div>
+      <div id="in_page_left" class ="in_page_left">
+        <div class ="burabak" onclick="burabak()"></div>
+        <div id="in_page_left1" class ="in_page_left_text" onclick="upload(1)">収入アップロード</div>
+        <div id="in_page_left2" class ="in_page_left_text" onclick="upload(2)">支出アップロード</div>
+        <div id="in_page_left2" class ="in_page_left_text_blank"></div>
+        <div id="in_page_left2" class ="in_page_left_text" onclick="upload(3)">確定　申告書B</div>
+        <div id="in_page_left2" class ="in_page_left_text" onclick="kessan()">青色　決算書(一般)</div>
+     </div>
+      <div id="in_page_block" class ="in_page_block">
+        <div id="in_page_box1" class ="in_page_box" onclick="in_box(1)"></div>
+        <div id="in_page_box2" class ="in_page_box" onclick="in_box(2)"></div>
+        <div id="in_page_box3" class ="in_page_box" onclick="in_box(3)"></div>
+        <div id="in_page_box4" class ="in_page_box" onclick="in_box(4)"></div>
+        <div id="in_page_box5" class ="in_page_box" onclick="in_box(5)"></div>
+        <div id="in_page_box6" class ="in_page_box" onclick="in_box(6)"></div>
+        <div id="in_page_box7" class ="in_page_box" onclick="in_box(7)"></div>
+        <div id="in_page_box8" class ="in_page_box" onclick="in_box(8)"></div>
+        <div id="in_page_box9" class ="in_page_box" onclick="in_box(9)"></div>
+        <div id="in_page_box10" class ="in_page_box" onclick="in_box(10)"></div>
+        <div id="in_page_box11" class ="in_page_box" onclick="in_box(11)"></div>
+        <div id="in_page_box12" class ="in_page_box" onclick="in_box(12)"></div>
+      </div>
+      <div id="data_INblock" class ="data_INblock page_off">
+        <img id="switching" onclick="switching()" src="https://raw.githubusercontent.com/bsptetu/FREEsuro3/gh-pages/switching.png"/>
+      </div>
+    </div>
+  <!-- firebaseのSDK取得 -->
+  <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script><!-- データーべース参照-->
+  <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-database.js"></script>
+  <script src='https://www.gstatic.com/firebasejs/7.9.3/firebase-storage.js'></script>
+  <script src="https://dbreaks.web.fc2.com/web_storage/config.js"></script><!-- 自身のコンフィグ-->
+   <!-- ここここまでが接続 -->
+  <script type="text/javascript" src="https://dbreaks.web.fc2.com/web_storage/firebase.js"></script>
+  <script type="text/javascript" src="https://dbreaks.web.fc2.com/web_storage/function.js"></script>
+  <script type="text/javascript" src="https://dbreaks.web.fc2.com/web_storage/web_storage.js"></script>
+  </body>
+</html>
