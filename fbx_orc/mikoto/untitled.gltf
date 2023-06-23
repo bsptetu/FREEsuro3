@@ -3877,12 +3877,6 @@
             },
             "name" : "F00_002_02_Body_00_SKIN",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "baseColorTexture" : {
                     "index" : 0
                 },
@@ -3897,12 +3891,6 @@
             },
             "name" : "F00_002_03_Tops_01_CLOTH",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "baseColorTexture" : {
                     "index" : 1
                 },
@@ -3968,12 +3956,6 @@
             },
             "name" : "F00_000_00_EyeWhite_00_EYE",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "baseColorTexture" : {
                     "index" : 3
                 },
@@ -4025,23 +4007,16 @@
             }
         },
         {
+            "alphaCutoff" : 0.7422361373901367,
+            "alphaMode" : "MASK",
             "doubleSided" : true,
-            "extensions" : {
-                "KHR_materials_unlit" : {}
-            },
             "name" : "F00_000_00_EyeIris_00_EYE",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "baseColorTexture" : {
                     "index" : 7
                 },
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0.9
+                "roughnessFactor" : 0.5
             }
         },
         {
@@ -4097,12 +4072,6 @@
             },
             "name" : "F00_000_Hair_00_HAIR_01",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "baseColorTexture" : {
                     "index" : 10
                 },
@@ -4117,12 +4086,6 @@
             },
             "name" : "F00_000_Hair_00_HAIR_02",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "baseColorTexture" : {
                     "index" : 11
                 },
@@ -4137,12 +4100,6 @@
             },
             "name" : "F00_000_Hair_00_HAIR_03",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.5,
-                    0.5,
-                    0.5,
-                    1
-                ],
                 "baseColorTexture" : {
                     "index" : 12
                 },
